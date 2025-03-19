@@ -6,10 +6,10 @@
         
         // 初始化音效（确保路径正确）
         const sounds = {
-            click: new Audio('sounds/click.mp3'),
-            correct: new Audio('sounds/correct.mp3'),
-            wrong: new Audio('sounds/wrong.mp3'),
-            win: new Audio('sounds/win.mp3')
+            click: new Audio('/wordgame/sounds/click.mp3'),
+            correct: new Audio('/wordgame/sounds/correct.mp3'),
+            wrong: new Audio('/wordgame/sounds/wrong.mp3'),
+            win: new Audio('/wordgame/sounds/win.mp3')
         };
 
 	// 事件监听器初始化
